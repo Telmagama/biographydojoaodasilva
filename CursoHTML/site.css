@@ -37,7 +37,11 @@ blockquote {
 	border:10px solid #C2CCCA ;
 	width:250px;
 	margin:20px 3px;
-	box-sizing:border-box;	
+	box-sizing:border-box;		
+}
+cite {
+	font-style: italic;
+	float: right;
 }
 strong {
 	font-weight: 600;
@@ -55,6 +59,7 @@ aside {
 
 
 }
+
 nav h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
@@ -63,15 +68,31 @@ nav a {
     color: inherit;
     text-transform: lowercase;
 }
+.artigo {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+
 .icones-sociais li {
    display: inline-block;
+
 }
 footer {
 	background-color: #000;
 	color: #F2FFFC;
 	padding:20px;
 }
-.icones-sociais a{
+.icones-sociais a {
 	width: 40px;
 	height: 40px;
 	display: inline-block;
@@ -99,7 +120,7 @@ footer {
 .petrobras {
 	float: left;
 }
-aside, img {
+aside, .minha-foto {
    float: right;  
    box-sizing: border-box;
 	border-left: 10px solid black;
@@ -124,7 +145,7 @@ footer {
 	width:100%;
 	
 }
-img {
+.minha-foto {
 	position: absolute;
 	top:0;
 	right:0;
